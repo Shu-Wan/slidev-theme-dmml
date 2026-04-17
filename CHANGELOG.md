@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.3] — 2026-04-17
+
+### Changed
+
+- Dark mode palette retuned to a Dracula-inspired slate (`#282a36` background, `#f8f8f2` foreground, `#44475a` borders) instead of near-black. Section/end backgrounds and links updated in kind; rule and accent recolored for the new base. Easier on the eyes during long talks.
+
 ## [0.1.2] — 2026-04-17
 
 ### Fixed

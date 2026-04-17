@@ -33,23 +33,23 @@ html:not(.dark) {
   --dmml-end-accent: var(--asu-gold);
 }
 
-/* Dark mode tokens */
+/* Dark mode tokens — Dracula-inspired neutrals, ASU maroon/gold accents */
 html.dark {
-  --slidev-theme-primary: #c2416a;
+  --slidev-theme-primary: #d6588a;
   --dmml-accent: var(--asu-gold);
-  --dmml-bg: #0f0f10;
-  --dmml-bg-soft: #17171a;
-  --dmml-fg: #ececef;
-  --dmml-fg-muted: #a1a1aa;
-  --dmml-border: #2a2a2f;
-  --dmml-rule: #c2416a;
-  --dmml-code-bg: #141418;
-  --dmml-code-border: #2a2a2f;
-  --dmml-link: #e2557f;
-  --dmml-section-bg: #140309;
-  --dmml-section-fg: #ffffff;
-  --dmml-end-bg: #140309;
-  --dmml-end-fg: #ffffff;
+  --dmml-bg: #282a36;
+  --dmml-bg-soft: #2f3144;
+  --dmml-fg: #f8f8f2;
+  --dmml-fg-muted: #a8aac4;
+  --dmml-border: #44475a;
+  --dmml-rule: #d6588a;
+  --dmml-code-bg: #21222c;
+  --dmml-code-border: #44475a;
+  --dmml-link: #ff79c6;
+  --dmml-section-bg: #21222c;
+  --dmml-section-fg: #f8f8f2;
+  --dmml-end-bg: #21222c;
+  --dmml-end-fg: #f8f8f2;
   --dmml-end-accent: var(--asu-gold);
 }
 
