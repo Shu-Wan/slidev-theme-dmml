@@ -383,18 +383,24 @@ html.dark {
   margin: 0;
 }
 .dmml-cover__title .highlight {
+  --dmml-highlight-bg: var(--asu-gold);
+  --dmml-highlight-fg: #111113;
   background: linear-gradient(
     180deg,
     transparent 0%,
     transparent 25%,
-    var(--asu-gold) 25%,
-    var(--asu-gold) 95%,
+    var(--dmml-highlight-bg) 25%,
+    var(--dmml-highlight-bg) 95%,
     transparent 95%
   );
-  color: #111113;
+  color: var(--dmml-highlight-fg);
   padding: 0 0.15em;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
+}
+html.dark .dmml-cover__title .highlight {
+  --dmml-highlight-bg: var(--asu-maroon);
+  --dmml-highlight-fg: #ffffff;
 }
 .dmml-cover__rule {
   width: 120px;
