@@ -1,0 +1,41 @@
+.slidev-layout pre,
+.slidev-layout .slidev-code,
+.slidev-layout div[class*='language-'] {
+  background: var(--dmml-code-bg) !important;
+  border: 1px solid var(--dmml-code-border);
+  border-radius: 6px;
+  padding: 0.9rem 1.1rem;
+  font-family: var(--dmml-font-mono);
+  font-size: 0.88em;
+  line-height: 1.55;
+  overflow: auto;
+  position: relative;
+}
+
+.slidev-layout pre code,
+.slidev-layout .shiki {
+  background: transparent !important;
+  font-family: var(--dmml-font-mono);
+}
+
+.slidev-layout :not(pre) > code {
+  font-family: var(--dmml-font-mono);
+  font-size: 0.88em;
+  padding: 0.1em 0.35em;
+  background: var(--dmml-code-bg);
+  border: 1px solid var(--dmml-code-border);
+  border-radius: 4px;
+  color: var(--slidev-theme-primary);
+}
+
+/* Shiki line highlight */
+.slidev-layout .shiki .line.highlighted {
+  background: color-mix(in srgb, var(--slidev-theme-primary) 12%, transparent);
+  box-shadow: inset 2px 0 0 var(--slidev-theme-primary);
+}
+
+/* Line numbers (when enabled) */
+.slidev-layout .shiki .line-numbers-wrapper {
+  color: var(--dmml-fg-muted);
+  opacity: 0.7;
+}
