@@ -4,13 +4,13 @@
   "description": "A Slidev theme for the ASU Data Mining and Machine Learning Lab",
   "license": "MIT",
   "author": "Shu Wan",
-  "homepage": "https://github.com/Shu/slidev-theme-dmml#readme",
+  "homepage": "https://github.com/Shu-Wan/slidev-theme-dmml#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shu/slidev-theme-dmml.git"
+    "url": "git+https://github.com/Shu-Wan/slidev-theme-dmml.git"
   },
   "bugs": {
-    "url": "https://github.com/Shu/slidev-theme-dmml/issues"
+    "url": "https://github.com/Shu-Wan/slidev-theme-dmml/issues"
   },
   "keywords": [
     "slidev-theme",
