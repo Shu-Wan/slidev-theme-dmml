@@ -1,0 +1,23 @@
+node_modules
+.DS_Store
+dist
+.vite
+.vite-cache
+*.local
+.env
+.env.*
+!.env.example
+
+# Editor
+.vscode
+.idea
+*.swp
+*.swo
+
+# Slidev
+.slidev
+/dist/
+
+# Logs
+*.log
+npm-debug.log*

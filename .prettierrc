@@ -1,0 +1,15 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "printWidth": 100,
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": ["example.md", "slides.md", "pages/*.md"],
+      "options": {
+        "parser": "slidev",
+        "plugins": ["prettier-plugin-slidev"]
+      }
+    }
+  ]
+}
