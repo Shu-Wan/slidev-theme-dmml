@@ -48,8 +48,9 @@ See [`docs/layouts.md`](./docs/layouts.md) for per-layout frontmatter options.
 | ![intro](./screenshots/02-intro.png)           | ![toc](./screenshots/03-toc.png)                   |
 | ![section](./screenshots/04-section.png)       | ![two-cols](./screenshots/05-two-cols.png)         |
 | ![quote](./screenshots/06-quote.png)           | ![image](./screenshots/07-image.png)               |
-| ![table](./screenshots/08-default-table.png)   | ![end](./screenshots/09-end.png)                   |
-| ![cover dark](./screenshots/10-cover-dark.png) | ![section dark](./screenshots/11-section-dark.png) |
+| ![table](./screenshots/08-default-table.png)   | ![references](./screenshots/09-references.png)     |
+| ![end](./screenshots/10-end.png)               | ![cite tooltip](./screenshots/05b-cite-tooltip.png)|
+| ![cover dark](./screenshots/11-cover-dark.png) | ![section dark](./screenshots/12-section-dark.png) |
 
 ## Features
 
