@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.6] — 2026-05-08
+
+### Added
+
+- Adjustable font-size tokens: `--dmml-fs-title` (48px), `--dmml-fs-subtitle` (20px), `--dmml-fs-heading` (28px), `--dmml-fs-body` (14px). Override in your deck's stylesheet to retune the scale. See `docs/customization.md`.
+
+### Changed
+
+- Switched package manager to pnpm. `package-lock.json` removed; `pnpm-lock.yaml` is the source of truth. README and docs updated accordingly.
+
+### Notes
+
+- Tag `v0.1.5` was created prematurely and never bumped `package.json` or shipped to npm — superseded by this release.
+
 ## [0.1.4] — 2026-04-17
 
 ### Fixed
