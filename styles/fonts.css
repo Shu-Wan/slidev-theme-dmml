@@ -6,4 +6,10 @@
     'Geist Variable', 'Geist', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
   --dmml-font-mono:
     'Geist Mono Variable', 'Geist Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  /* Font-size tokens — override in your deck's stylesheet to retune scale. */
+  --dmml-fs-title: 48px; /* cover slide title */
+  --dmml-fs-subtitle: 20px; /* cover slide subtitle */
+  --dmml-fs-heading: 28px; /* content slide heading */
+  --dmml-fs-body: 14px; /* content slide body text */
 }

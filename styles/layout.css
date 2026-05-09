@@ -375,7 +375,7 @@ html.dark {
   margin-bottom: 0.9rem;
 }
 .dmml-cover__title {
-  font-size: 3.25rem;
+  font-size: var(--dmml-fs-title);
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.15;
@@ -410,7 +410,7 @@ html.dark .dmml-cover__title .highlight {
   border-radius: 2px;
 }
 .dmml-cover__subtitle {
-  font-size: 1.35rem;
+  font-size: var(--dmml-fs-subtitle);
   color: var(--dmml-fg-muted);
   font-weight: 400;
   line-height: 1.4;
@@ -542,13 +542,17 @@ html.dark .dmml-cover__title .highlight {
   background: var(--slidev-theme-primary);
 }
 .dmml-default__header h1 {
-  font-size: 1.9rem;
+  font-size: var(--dmml-fs-heading);
   margin: 0;
   font-weight: 600;
 }
 .dmml-default__body {
   overflow: auto;
   align-self: start;
+  font-size: var(--dmml-fs-body);
+}
+.slidev-layout.dmml-two-cols .dmml-two-cols__grid {
+  font-size: var(--dmml-fs-body);
 }
 
 /* ---------- Image layout ---------- */

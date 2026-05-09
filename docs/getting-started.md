@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-npm i -D slidev-theme-dmml
+pnpm add -D slidev-theme-dmml
 ```
 
 In your deck's frontmatter:
@@ -22,7 +22,7 @@ the part that trips people up first.
 ### `slidev` (dev server)
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 - Starts a **Vite dev server** at `http://localhost:3030`.
@@ -34,7 +34,7 @@ npm run dev
 ### `slidev build` (static web deck)
 
 ```bash
-npm run build
+pnpm build
 ```
 
 - Produces a **static SPA** in `dist/` (HTML + JS + CSS).
@@ -46,9 +46,9 @@ npm run build
 ### `slidev export` (PDF / PNG / PPTX)
 
 ```bash
-npm run export              # PDF (default)
-npx slidev export --format png example.md
-npx slidev export --format pptx example.md
+pnpm export                       # PDF (default)
+pnpm exec slidev export --format png example.md
+pnpm exec slidev export --format pptx example.md
 ```
 
 - Uses **Playwright** under the hood to render every slide and pack the frames
@@ -99,7 +99,7 @@ Everything else — `example.md`, `screenshots/`, `docs/`, `node_modules/`,
 `dist/` — stays out. Verify before you publish:
 
 ```bash
-npm pack --dry-run
+pnpm pack --dry-run
 ```
 
 ### Release
@@ -116,8 +116,8 @@ npm pack --dry-run
 4. Publish:
 
    ```bash
-   npm login
-   npm publish --access public
+   npm login              # one-time, the npm registry handles auth
+   pnpm publish --access public
    ```
 
    The `prepublishOnly` script builds `example.md` as a smoke test — if any
@@ -131,10 +131,10 @@ To try the theme in a separate deck without publishing:
 
 ```bash
 # In the theme repo
-npm link
+pnpm link --global
 
 # In your deck
-npm link slidev-theme-dmml
+pnpm link --global slidev-theme-dmml
 ```
 
 Or reference the directory directly in the deck's frontmatter:

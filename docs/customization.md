@@ -57,6 +57,27 @@ fonts:
 ---
 ```
 
+## Font sizes
+
+Sizes for the four largest pieces of type are exposed as CSS variables, so
+you can retune the scale without forking the layouts:
+
+| Token                | Default | Where it applies            |
+| -------------------- | ------- | --------------------------- |
+| `--dmml-fs-title`    | `48px`  | cover slide title           |
+| `--dmml-fs-subtitle` | `20px`  | cover slide subtitle        |
+| `--dmml-fs-heading`  | `28px`  | content slide heading (`heading:` frontmatter) |
+| `--dmml-fs-body`     | `14px`  | body text on content / two-cols slides         |
+
+Override in your deck's stylesheet:
+
+```css
+:root {
+  --dmml-fs-title: 56px;
+  --dmml-fs-body: 16px;
+}
+```
+
 ## Footer
 
 Every non-cover, non-section, non-end layout uses `components/Footer.vue`. It
@@ -85,7 +106,7 @@ theme ships styling that matches the ASU palette — install the addon and
 cite as normal:
 
 ```bash
-npm i -D slidev-addon-citations
+pnpm add -D slidev-addon-citations
 ```
 
 ```yaml

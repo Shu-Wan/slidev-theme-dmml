@@ -7,7 +7,7 @@ A [Slidev](https://sli.dev) theme for ASU's DMML Lab.
 ## Install
 
 ```bash
-npm i -D slidev-theme-dmml
+pnpm add -D slidev-theme-dmml
 ```
 
 Then in your deck:
@@ -21,8 +21,8 @@ theme: dmml
 ## Try the example deck
 
 ```bash
-npm install
-npm run dev      # http://localhost:3030
+pnpm install
+pnpm dev         # http://localhost:3030
 ```
 
 ## Layouts
